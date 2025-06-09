@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(135deg, #e0f7fa 0%, #f8ffae 100%);
+    scroll-padding-top: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxanium", "Kode Mono", "Orbitron", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem 0 2rem 0;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08), 0 0 24px 0 rgb(20, 200, 255), 0 3px 0 0 rgb(184, 255, 163);
+}
+
+.topnav {
+    background: #222;
+    border-radius: 8px;
+    padding: 0.25rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.topnav a {
+    color: #84e802;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+    display: block;
+    background: transparent;
+}
+
+.topnav a:hover,
+.topnav a.active {
+    background: #84e802;
+    color: #222;
+}
+
+#anchorMeOne {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Kode Mono", monospace;
+    color: #222; 
+    font-size: 15px;
+    text-shadow: #A6FF90 1px 1px 2px;
+    padding: 1rem 0;
+    width: auto;
+}
+
+p {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: lightsteelblue;
+    text-shadow: #A6FF90 2px 2px 2px;
+    font-family: "Orbitron", sans-serif;
+    padding: 0 10% 10% 10%;
+    font-stretch: semi-condensed;
+}
+
+footer {
+    background: #fff;
+    color: #222;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 0 0 12px 12px;
+    margin-top: 2rem;
+}
+
+footer p {
+    padding: 0;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+footer p a {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+footer a {
+    color: #84e802;
+    text-decoration: underline;
+    font-family: "Orbitron", sans-serif;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+header img.center {
+    display: block;
+    margin: 1rem auto;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #84e802;
+    background: #f8f8f8;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 2px;
+    color: #222;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #84e802;
+    text-shadow: #878787 1px 1px 2px;
+}
+
+.four {
+    background: #f4f4f4;
+    border-left: 4px solid #84e802;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.github-link {
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+    text-align: center;
+}
+
+.github-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.github-link:hover {
+    color: #84e802;
+}
+
+.github-link img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.solarSectionOne,
+.solarSectionTwo,
+.solarSectionThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.solarSectionThree h3,
+.solarSectionThree img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#aboutMe, #contact {
+    margin-top: 2rem;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e0f7fa;
+}
+::-webkit-scrollbar-thumb {
+    background: #84e802;
+    border-radius: 4px;
+}
+
+.languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 80px;
+}
+
+.language img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem;
+}
+.myLanguages {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+    text-shadow: #878787 1px 1px 2px;
+    color: #84e802;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
