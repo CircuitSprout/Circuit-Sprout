@@ -204,6 +204,7 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
     margin-top: 1rem;
     width: 100%;
@@ -216,6 +217,8 @@ h2, h3 {
     justify-content: center;
     text-align: center;
     min-width: 80px;
+    flex: 1 1 100px;
+    max-width: 120px;
 }
 
 .language img {
